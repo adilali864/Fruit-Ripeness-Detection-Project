@@ -1,0 +1,884 @@
+2024-11-26 12:07:53,525 - INFO - Model found at: d:\AI Hackathon\ALML MultiFruit Ripeness detection Project\model_outputs\final_model.keras
+2024-11-26 12:07:54,464 - INFO - Successfully loaded model from d:\AI Hackathon\ALML MultiFruit Ripeness detection Project\model_outputs\final_model.keras
+2024-11-26 12:07:57,088 - INFO - Successfully initialized camera (Index: 0, Backend: 700)
+2024-11-26 12:07:57,089 - INFO - Starting Fruit Ripeness Detection on 0.0.0.0:5000
+2024-11-26 12:07:57,131 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.12.36.65:5000
+2024-11-26 12:07:57,131 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-26 12:07:57,150 - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-26 12:08:00,750 - INFO - Model found at: d:\AI Hackathon\ALML MultiFruit Ripeness detection Project\model_outputs\final_model.keras
+2024-11-26 12:08:01,584 - INFO - Successfully loaded model from d:\AI Hackathon\ALML MultiFruit Ripeness detection Project\model_outputs\final_model.keras
+2024-11-26 12:08:03,331 - INFO - Successfully initialized camera (Index: 0, Backend: 700)
+2024-11-26 12:08:03,332 - INFO - Starting Fruit Ripeness Detection on 0.0.0.0:5000
+2024-11-26 12:08:03,345 - WARNING -  * Debugger is active!
+2024-11-26 12:08:03,347 - INFO -  * Debugger PIN: 807-847-343
+2024-11-26 12:08:03,409 - INFO - 127.0.0.1 - - [26/Nov/2024 12:08:03] "GET / HTTP/1.1" 200 -
+2024-11-26 12:08:03,645 - INFO - 127.0.0.1 - - [26/Nov/2024 12:08:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-26 12:08:06,468 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:06,489 - INFO - 127.0.0.1 - - [26/Nov/2024 12:08:06] "GET /video_feed HTTP/1.1" 200 -
+2024-11-26 12:08:07,616 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:08,768 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:09,880 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:10,998 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:12,139 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:13,269 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:14,424 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:15,583 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:16,722 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:17,876 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:19,018 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:20,124 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:21,244 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:22,357 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:23,479 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:24,598 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:25,726 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:26,874 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:27,999 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:29,131 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:30,306 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:31,491 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:32,648 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:33,771 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:34,923 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:37,153 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:37,163 - INFO - 127.0.0.1 - - [26/Nov/2024 12:08:37] "GET /video_feed HTTP/1.1" 200 -
+2024-11-26 12:08:38,341 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:39,481 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:40,607 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:41,734 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:43,083 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:44,217 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:45,359 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:46,488 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:47,593 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:48,701 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:49,803 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:50,906 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:52,041 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:53,147 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:54,248 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:55,400 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:56,568 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:57,851 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:08:59,010 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:00,121 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:01,236 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:02,356 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:03,488 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:04,611 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:05,734 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:06,853 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:07,973 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:09,095 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:10,220 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:11,351 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:12,480 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:13,629 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:14,745 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:15,859 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:16,985 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:18,101 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:19,218 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:20,402 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:21,523 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:22,638 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:23,764 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:24,886 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:25,995 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:27,108 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:28,233 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:29,350 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:30,499 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:31,615 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:32,734 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:33,841 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:34,964 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:36,080 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:37,205 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:38,318 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:39,434 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:40,556 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:41,677 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:42,798 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:43,915 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:45,035 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:46,392 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:47,505 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:48,628 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:49,737 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:50,856 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:51,980 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:53,094 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:54,214 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:55,329 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:56,454 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:57,569 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:58,683 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:09:59,806 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:00,925 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:02,031 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:03,153 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:04,264 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:05,419 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:06,590 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:07,723 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None
+2024-11-26 12:10:08,860 - ERROR - Ripeness prediction error: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 32768, but received input with shape (1, 100352)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(1, 224, 224, 3), dtype=float32)
+  • training=False
+  • mask=None

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Ripeness Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #352F44;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #FAF0E6;
+            margin: 20px 5px;
+            text-shadow: 1px 1px 2px #B9B4C7;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .video-feed {
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background-color: #B9B4C7;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #218838;
+        }
+
+        .button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fruit Ripeness Detection</h1>
+    <div class="container">
+        <img id="video" class="video-feed" src="" width="640" height="480" alt="Video Feed">
+        <div class="controls">
+            <button id="startButton" class="button" onclick="startFeed()">Start Video</button>
+            <button id="stopButton" class="button" onclick="stopFeed()" disabled>Stop Video</button>
+        </div>
+    </div>
+    <footer>
+        &copy; K. Som Sekhar Babu || Manoj Vamsi || Adil Khan
+    </footer>
+
+    <script>
+        let videoElement = document.getElementById('video');
+        let startButton = document.getElementById('startButton');
+        let stopButton = document.getElementById('stopButton');
+        let videoStarted = false;
+
+        function startFeed() {
+            if (!videoStarted) {
+                videoElement.src = "{{ url_for('video_feed') }}";
+                videoStarted = true;
+                startButton.disabled = true;
+                stopButton.disabled = false;
+            }
+        }
+
+        function stopFeed() {
+            if (videoStarted) {
+                videoElement.src = ""; // Stop the video feed
+                videoStarted = false;
+                startButton.disabled = false;
+                stopButton.disabled = true;
+            }
+        }
+    </script>
+</body>
+</html>
