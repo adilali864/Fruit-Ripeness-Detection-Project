@@ -62,7 +62,7 @@ class ImagePreprocessor:
         a = cv2.equalizeHist(a)
         b = cv2.equalizeHist(b)
         
-        # Merge channels
+        # Merge channel
         enhanced = cv2.merge([l, a, b])
         enhanced = cv2.cvtColor(enhanced, cv2.COLOR_LAB2RGB)
         
